@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+}
+
+
+
+
+
+.formContainer {
+    border: 3px solid black;
+    width: 80vw;
+    margin: 0px auto;
+}
+.form {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.label{
+    margin: 20px 0px;
+}
+#formBtn {
+    margin: 20px 0px;
+}
+
+.details {
+    border: 3px solid black;
+    padding: 20px;
+    width: 80vw;
+    margin: 0px auto;
+}
+.flexWrapper {
+    width: 40vw;
+}
+.topFlexBox {
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.direx {
+    flex-direction: column;
+}
+h4 {
+    margin-right: 30px;
+}
+.error {
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+    padding: 5px;
+}
+.headerBtn {
+    display: flex;
+    flex-direction: column;
+}
+.removeBtn {
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+}

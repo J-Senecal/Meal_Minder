@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 178, 0);
+    padding: 10px;
+    height: 20vh;
+}
+#icon {
+    width: 22%;
+    height: 100%;
+    border-radius: 50%;
+}
+.leftNav {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 80%;
+    align-items: center;
+    font-family:fantasy;
+}
+.rightNav {
+    width: 30%;
+    padding-right: 4%;
+    display: flex;
+    justify-content: right;
+}
+.headerLinks {
+    text-decoration: none;
+    color: rgb(0, 178, 0);
+    /* margin-right: 20px; */
+}
+#firstBtn {
+    margin-right: 40px;
+}

@@ -1,0 +1,3 @@
+restriction form validation errors need to disappear once criteria is met while typing, rather than just on resubmit
+one to many relationships
+api integration

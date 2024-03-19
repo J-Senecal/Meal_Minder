@@ -1,0 +1,16 @@
+Root Folder
+    (create .gitignore file)
+    npm i vite@latest client -- --template react swc
+
+Client Folder
+    npm i
+    npm i axios react-router-dom
+    npm run dev
+
+Server Folder
+    (create server.js)
+    npm init -y
+    mkdir controllers models routes config
+    npm install express mongoose cors dotenv
+    npm install --save-dev nodemon
+    npm run dev
