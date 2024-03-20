@@ -61,13 +61,9 @@ const Details = (props) => {
     
     //need to set values to all lower to compare in case of capitalization differences
     const restrictionStyler = (item) => {
-        console.log('user restrictions', user.restrictions)
         const foodArray = user.restrictions
-        console.log('foodArray', foodArray);
         let result = true
         for( let i=0; i<foodArray.length; i++) {
-            console.log('i in loop is', foodArray[i].food);
-            console.log('item is', item);
             if( foodArray[i].food.toLowerCase() === item.toLowerCase() ) {
                 result = false
             }

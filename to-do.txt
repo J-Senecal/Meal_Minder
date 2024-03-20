@@ -1,3 +1,5 @@
 restriction form validation errors need to disappear once criteria is met while typing, rather than just on resubmit
-one to many relationships
-api integration
+one to many relationship - fav recipe to User model
+add new recipe manually - works in postman, need to connect to front end
+additional inputs dynamically appear when adding ingredients to manual recipe add
+user login/registration

@@ -99,10 +99,12 @@ const NewRecipe = () => {
                     <label className='formLabel'>Name:</label>
                     <input id='nameInput' className='form-control' type="text" name='name' value={newRecipe.name} onChange={changeHandler}/>
                 </div>
+                    {errors.name&& <p className='error'>{errors.name.message}</p>}
                 <div>
                     <label  className='formLabel'>Directions:</label>
                     <textarea style={{marginBottom:'10px', border:'3px solid black'}} className='form-control' name="directions" rows="4" cols="50" value={newRecipe.directions} onChange={changeHandler}/>
                 </div>
+                    {errors.directions&& <p className='error'>{errors.directions.message}</p>}
                 <label  className='formLabel'>Ingredients:</label>
                 <input id='ingredientInput' className='form-control' type="text" onChange={ () => setAddInput(true) }/>
                 {

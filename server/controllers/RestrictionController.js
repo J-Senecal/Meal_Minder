@@ -1,4 +1,7 @@
 import Restriction from '../models/restrictions.model.js'
+import User from '../models/user.model.js'
+
+let myToken = {firstName:"Justin", _id:"65f658c03cd946af0e3403cb"}
 
 async function addRestriction( req, res) {
     try {
